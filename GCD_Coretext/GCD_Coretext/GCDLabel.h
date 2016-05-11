@@ -16,6 +16,6 @@
 @property (nonatomic, strong) UIFont *font;
 @property (nonatomic) int lineSpace;
 
-//- (UIImage *)image;
+- (UIImage *)image;
 
 @end
