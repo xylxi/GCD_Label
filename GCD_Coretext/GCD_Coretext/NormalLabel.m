@@ -95,6 +95,7 @@ CTTextAlignment NormalCTTextAlignmentFromUITextAlignment(NSTextAlignment alignme
 	attributedStr = nil;
 }
 
+/** 正则匹配颜色 */
 - (NSAttributedString *)highlightText:(NSMutableAttributedString *)coloredString{
     NSString* string = coloredString.string;
     NSRange range = NSMakeRange(0,[string length]);
